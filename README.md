@@ -1,1 +1,0 @@
-# mustafakemal-web
