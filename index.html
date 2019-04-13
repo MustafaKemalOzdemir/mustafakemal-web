@@ -88,7 +88,7 @@
             border-radius: 4px;
             background-color: transparent;
             border: 2px solid #4CAF50;
-            color: white;
+            color: black;
             text-align: match-parent;
             
             font-size: 25px;
@@ -141,7 +141,7 @@
             
             position: relative;
             animation: animateleft 2s;
-            animation-delay:2s;
+            animation-delay:0s;
             opacity:1;
         }
            
@@ -158,9 +158,9 @@
     <header id="header" class="w3-container w3-center deneme" >
         <div class="inner">
             <a href="#three" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-            <h1>
-                <strong>I am Mustafa Kemal</strong><br />
-                <br />
+            <h1 >
+                <strong style="color:black;">I am Mustafa Kemal</strong><br />
+                <br/>
 
             </h1>
             <!--
@@ -186,7 +186,7 @@
         }
 
         async function demo() {
-            await sleep(4000);
+            await sleep(2000);
 
             document.getElementById("header").style.opacity = "1";
 
@@ -195,8 +195,8 @@
 
     </script>
 
-    <div id="cnvs" class="w3-bar w3-black" style=" height:100vh; ">
-        <canvas id="canv"  style="height: 62vh; width:70vw; position:center; display:block; margin-top:28vh; margin-left:13vw; color:white" ;></canvas>
+    <div id="cnvs" class="w3-bar w3-black" style=" height:40vh; width:160vh;margin-left:23vw ">
+        <canvas id="canv"  style="height: 30vh; width:44vw; position:center; display:block; margin-top:15px; margin-left:10vw; color:white" ;></canvas>
     </div>
     <script>
         function sleep(ms) {
@@ -206,8 +206,8 @@
         async function demo() {
             await sleep(1000);
             
-            $("#cnvs").animate({ width: "vw", marginLeft: "23vw", height: "37vh" }, { duration: 3100 });
-            $("#canv").animate({ width: "520px", marginLeft: "18vw",marginTop:"20px", height: "220px" }, { duration: 3100 });
+          //  $("#cnvs").animate({ width: "vw", marginLeft: "23vw", height: "37vh" }, { duration: 3100 });
+          //  $("#canv").animate({ width: "520px", marginLeft: "18vw",marginTop:"20px", height: "220px" }, { duration: 3100 });
   
         }
 

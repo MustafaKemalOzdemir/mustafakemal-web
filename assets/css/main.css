@@ -1775,11 +1775,11 @@ a {
 		text-align: center;
 	}
 
-	header p {
-		color: #b2b2b2;
-		position: relative;
-		margin: 0 0 1.5em 0;
-	}
+header p {
+    color: white;
+    position: relative;
+    margin: 0 0 1.5em 0;
+}
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2588,7 +2588,7 @@ textarea {
     justify-content: space-between;
     background-color: #1f1815;
     background-attachment: scroll, scroll;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    background-image: url("images/overlay.jpg"), url("../../images/bg.jpg");
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
