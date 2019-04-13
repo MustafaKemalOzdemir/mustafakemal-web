@@ -195,7 +195,7 @@
     </script>
 
     <div id="cnvs" class="w3-bar w3-black" style=" height:100vh; ">
-        <canvas id="canv"  style="height: 62vh; width:70vw; position:center; display:block; margin-top:28vh; margin-left:13vw;" ;></canvas>
+        <canvas id="canv"  style="height: 62vh; width:70vw; position:center; display:block; margin-top:28vh; margin-left:13vw; color:white" ;></canvas>
     </div>
     <script>
         function sleep(ms) {
@@ -341,16 +341,18 @@
 
         document.ready(function () {
             var c = document.getElementById('canv');
+            
             var $ = c.getContext('2d');
             c.width = 600; c.height = 400;
             var ms = false;
             var w = 0, h = 0;
 
             var img = new Image();
-            img.src = 'https://flysvgair.com/wp-content/uploads/revslider/comingsoon/welcome.png';
+            img.src = 'https://www.dropbox.com/s/abcg0znk31hh71b/welcome.jpg?dl=0';
 
             var set = function () {
                 var run, _h, _w, dx, a;
+                
                 w = img.width;
                 h = img.height;
                 $.translate(50, 50);
